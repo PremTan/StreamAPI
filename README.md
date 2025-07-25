@@ -1,9 +1,11 @@
 # Java Stream API Practice 🚀
 
 This repository contains my ongoing practice programs focused on **Java 8 Stream API**.  
-I'm currently working on solving **50+ real-world and interview-based questions** using Stream API features.
+I'm currently solving **50+ real-world and interview-based questions** using core and custom stream logic.
 
-## ✅ Concepts Covered (and Expanding...)
+---
+
+## ✅ Concepts Covered
 
 - Filtering elements using `.filter()`
 - Mapping values with `.map()`
@@ -11,28 +13,49 @@ I'm currently working on solving **50+ real-world and interview-based questions*
 - Collecting results via `.collect(Collectors.toList())`
 - Reducing values with `.reduce()`
 - Using `Optional`, `Comparator`, and method references
-- Solving problems like finding unique elements, non-repeated characters, counting vowels, even/odd logic, and much more...
+- Custom logic implementations using Java Streams
+- Test-based problem-solving approaches
 
-## 🛠️ Work in Progress
-
-🔄 I'm actively updating this repo with new questions regularly.  
-Stay tuned for **50+ carefully crafted Stream API problems!**
+---
 
 ## 📁 Folder Structure
 
-Each `.java` file is a standalone example demonstrating a specific use-case or question related to the Stream API.
+
+- **`com.main`**: All Stream API basic to intermediate examples
+- **`com.test`**: Real-world test problems solved using streams
+- **`com.custom`**: Custom stream functions/utilities like own `filter`, `map`, etc.
+
+---
 
 ## 🧠 Purpose
 
 This project is part of my **Java learning journey at Naresh IT**.  
-I believe in learning by doing — and this repository is both my **practice zone** and a **helpful resource** for others exploring Java Streams.
+By consistently solving varied problems, I aim to master the Stream API and improve problem-solving skills.
+
+---
 
 ## ▶️ How to Run
 
-- Clone or download the repo
-- Open the project in **Eclipse**, **IntelliJ**, or any Java IDE
-- Run individual `.java` files (each has a `main()` method)
+1. Clone or download the repo
+2. Open the project in **Eclipse**, **IntelliJ**, or any Java IDE
+3. Navigate to any `.java` file (all have `main()` methods)
+4. Run and observe the output
+
+---
+
+## 🔄 Work in Progress
+
+🚧 I'm actively adding new logic and refining existing ones.  
+Expect consistent updates with **custom stream designs**, **interview problems**, and **new patterns**.
+
+---
 
 ## 🤝 Let's Connect
 
-If you're also learning Java or have suggestions, feel free to **collaborate**, **fork the repo**, or **raise issues**!
+If you're also learning Java or have suggestions:
+- 🌟 Star the repo
+- 🍴 Fork and contribute
+- 🐛 Raise issues
+- 📢 Discuss ideas via [GitHub Discussions](https://github.com/PremTan/StreamAPI/discussions)
+
+---
